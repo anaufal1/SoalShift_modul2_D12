@@ -47,7 +47,7 @@ Catatan:
 dilarang menggunakan crontab
 Contoh nama file : makan_sehat1.txt, makan_sehat2.txt, dst
 
-Pengerjaan : 
+Pengerjaan : pertama, kita mencari kapan waktu terakhir di akses dan waktu sekarang. jika waktu sekarang - 30 <waktu kapan terkahir diakses maka step selanjutnya kita menlakukan perulangan dari 1 sampai ke counter(angka terakhir dr nama file yang terakhir dibuat ditambahkan 1) jika ada file yang terlewati misalnya 1, 2, 4, 5. maka program secara otomatis break dan membuat file makan_sehat3.txt. dan disimpan  di dalam folder /home/swan/Documents/makanan.
 
 
 # Soal5
@@ -60,6 +60,6 @@ Per menit memasukkan log#.log ke dalam folder tersebut
 Buatlah program c untuk menghentikan program di atas.
 NB: Dilarang menggunakan crontab dan tidak memakai argumen ketika menjalankan program.
 
-Pengerjaan : 
+Pengerjaan : pertama kita melihat mencar waktu sekarang untuk dijadikan nama file dan folder. folder kita buat setiap 30 menit dan file kita buat setiap menit folder di buat di dalam /home/swan/log/ yang berisi darii file dengan direktori /var/log/syslog.
 
 
