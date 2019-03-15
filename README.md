@@ -23,4 +23,19 @@ Pengerjaan : dengan template daemon dari Modul 2, lalu isi main program c dengan
 Pada suatu hari Kusuma dicampakkan oleh Elen karena Elen dimenangkan oleh orang lain. Semua kenangan tentang Elen berada pada file bernama “elen.ku” pada direktori “hatiku”. Karena sedih berkepanjangan, tugas kalian sebagai teman Kusuma adalah membantunya untuk menghapus semua kenangan tentang Elen dengan membuat program C yang bisa mendeteksi owner dan group dan menghapus file “elen.ku” setiap 3 detik dengan syarat ketika owner dan grupnya menjadi “www-data”. Ternyata kamu memiliki kendala karena permission pada file “elen.ku”. Jadi, ubahlah permissionnya menjadi 777. Setelah kenangan tentang Elen terhapus, maka Kusuma bisa move on.
 Catatan: Tidak boleh menggunakan crontab
 
+Pengerjaan : dengan template daemon dari Modul2, dan include library pwd.h dan grp.h , lalu mencari file elen.ku di direktori /modul2/soal2/hatiku/. Menggunakan path dari c, dengan struct, lalu gunakan 2 pointer *pw untuk pointer owner, *gr untuk pointer group. Jika ownernya "www-data" dan groupnya "www-data" makan hapus file elen.ku dengan sleep 3 detik.
+
+
+*Soal3*
+
+Diberikan file campur2.zip. Di dalam file tersebut terdapat folder “campur2”. 
+Buatlah program C yang dapat :
+i)  mengekstrak file zip tersebut.
+ii) menyimpan daftar file dari folder “campur2” yang memiliki ekstensi .txt ke dalam file daftar.txt. 
+Catatan:  
+Gunakan fork dan exec.
+Gunakan minimal 3 proses yang diakhiri dengan exec.
+Gunakan pipe
+Pastikan file daftar.txt dapat diakses dari text editor
+
 Pengerjaan : 
