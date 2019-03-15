@@ -38,4 +38,18 @@ Gunakan minimal 3 proses yang diakhiri dengan exec.
 Gunakan pipe
 Pastikan file daftar.txt dapat diakses dari text editor
 
-Pengerjaan : 
+Pengerjaan : Pertama unzip file campur2.zip dengan exec, lalu buat file daftar.txt. Lalu menggunakan command ls di direktori campur2 dan pointer z ke File dengan fungsi fdopen r = read, dan w = write dengan pointer daftar. Fgets untuk mendapatkan string ke variable buffer, lalu cari string dengan strstr dan strlen buffer-6 agar mencari extensi .txt di 6 char terakhir dari belakang. Karena tadi pointer daftar telah di fopen dengan command write maka yang tertampilkan akan di input ke file daftar.txt.
+
+*Soal4*
+
+Dalam direktori /home/[user]/Documents/makanan terdapat file makan_enak.txt yang berisikan daftar makanan terkenal di Surabaya. Elen sedang melakukan diet dan seringkali tergiur untuk membaca isi makan_enak.txt karena ngidam makanan enak. Sebagai teman yang baik, Anda membantu Elen dengan membuat program C yang berjalan setiap 5 detik untuk memeriksa apakah file makan_enak.txt pernah dibuka setidaknya 30 detik yang lalu (rentang 0 - 30 detik).
+Jika file itu pernah dibuka, program Anda akan membuat 1 file makan_sehat#.txt di direktori /home/[user]/Documents/makanan dengan '#' berisi bilangan bulat dari 1 sampai tak hingga untuk mengingatkan Elen agar berdiet.
+
+Contoh:
+File makan_enak.txt terakhir dibuka pada detik ke-1
+Pada detik ke-10 terdapat file makan_sehat1.txt dan makan_sehat2.txt
+
+Catatan: 
+dilarang menggunakan crontab
+Contoh nama file : makan_sehat1.txt, makan_sehat2.txt, dst
+
